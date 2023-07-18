@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-brand: 255 51 102;
+    --color-gray: 118 118 118;
+
+    --color-brand-lighter: color-mix(
+      in srgb,
+      rgb(var(--color-brand)) 5%,
+      white
+    );
+    --color-brand-light: color-mix(in srgb, rgb(var(--color-brand)) 25%, white);
+    --color-brand-dark: color-mix(in srgb, rgb(var(--color-brand)) 50%, black);
+
+    --color-gray-light: color-mix(in srgb, rgb(var(--color-gray)) 25%, white);
+    --color-gray-dark: color-mix(in srgb, rgb(var(--color-gray)) 50%, black);
+  }
+}
