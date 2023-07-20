@@ -33,7 +33,7 @@ export const Contact = () => {
           </li>
           <li className="flex items-center gap-3 text-gray tablet:text-lg">
             <MailIcon className="text-brand" />
-            contato@BeautySalon.com
+            contato@beautysalon.com
           </li>
         </ul>
       </Wrapper>
