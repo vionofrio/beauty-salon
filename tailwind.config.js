@@ -34,7 +34,7 @@ module.exports = {
       },
       backgroundImage: {
         "section-divide-gradient":
-          "linear-gradient(to right, rgb(var(--color-brand)), var(--color-brand-lighter))",
+          "linear-gradient(to left, rgb(var(--color-brand)), var(--color-brand-lighter))",
       },
     },
   },
