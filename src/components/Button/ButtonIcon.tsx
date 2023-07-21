@@ -4,6 +4,6 @@ interface ButtonIconProps extends LucideProps {
   icon: React.ElementType;
 }
 
-export const ButtonIcon = ({ icon: Icon, ...props }: ButtonIconProps) => {
-  return <Icon {...props} />;
+export const ButtonIcon = ({ icon: Icon, ...rest }: ButtonIconProps) => {
+  return <Icon {...rest} />;
 };
