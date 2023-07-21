@@ -1,5 +1,7 @@
-import { HairTherapyIcon } from "./HairTherapyIcon";
-import { HairCutIcon } from "./HairCutIcon";
-import { HairTreatmentIcon } from "./HairTreatmentIcon";
+export interface IconProps extends React.SVGAttributes<SVGElement> {
+  size?: string | number;
+}
 
-export { HairTherapyIcon, HairCutIcon, HairTreatmentIcon };
+export { HairTherapyIcon } from "./HairTherapyIcon";
+export { HairCutIcon } from "./HairCutIcon";
+export { HairTreatmentIcon } from "./HairTreatmentIcon";

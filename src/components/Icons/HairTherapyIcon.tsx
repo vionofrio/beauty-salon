@@ -1,13 +1,13 @@
-import { LucideProps } from "lucide-react";
+import { IconProps } from ".";
 
-export const HairTherapyIcon = ({ ...props }: LucideProps) => {
+export const HairTherapyIcon = ({ size, ...rest }: IconProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={props.size}
-      height={props.size}
+      width={size}
+      height={size}
       fill="none"
-      {...props}
+      {...rest}
     >
       <path
         fill="currentColor"
