@@ -24,6 +24,7 @@ export const Testimonial = () => {
                     src="/avatar.jpg"
                     alt=""
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     style={{ objectFit: "cover" }}
                   />
                 </div>
@@ -43,6 +44,7 @@ export const Testimonial = () => {
                     src="/avatar2.jpg"
                     alt=""
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     style={{ objectFit: "cover" }}
                   />
                 </div>
